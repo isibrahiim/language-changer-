@@ -117,24 +117,24 @@ nav ul li a {
     background-repeat: no-repeat;
 }
 
-.en:before {
+.langWrap .en:before {
     background-image: url(https://www.countryflags.io/en/flat/32.png);
 }
 
-.en:before {
+.langWrap .en:before {
     background-image: url(https://www.countryflags.io/us/flat/32.png);
 }
-.kz:before {
+.langWrap .kz:before {
     background-image: url(https://www.countryflags.io/kz/flat/32.png);
 }
 
-.jp:before {
+.langWrap .jp:before {
     background-image: url(https://www.countryflags.io/jp/flat/32.png);
 }
-.ae:before {
+.langWrap .ae:before {
     background-image: url(https://www.countryflags.io/ae/flat/32.png);
 }
-.so:before {
+.langWrap .so:before {
     background-image: url(https://www.countryflags.io/so/flat/32.png);
 }
 
