@@ -9,7 +9,7 @@ link.forEach((el) => {
     langEl.querySelector(".active").classList.remove("active");
 	el.classList.add("active");
 	const attr = el.getAttribute("language");
-	sl.classList.add(this.classList); 
+	sl.classList.add(el.classList[0]); 
     sl.textContent = attr;
 
     titleEl.textContent = data[attr].title;
