@@ -22,16 +22,18 @@
                 English
             </div>
           <ul>
-            <li><a href="#"  language="english" class="active en ">EN</a></li>
-            <li><a href="#" class="kz" language="kazakh">ҚАЗ</a></li>
-            <li><a href="#" class="jp" language="japanese">あ</a></li>
-            <li><a href="#" class="ae" language="arabic">عربى</a></li>
-            <li><a href="#" class="so" language="Somali">Soomaali</a></li>
+            <li><a onclick="activeClass()" href="#" class="en active" language="english"  id="sw-en">EN</a></li>
+            <li><a onclick="activeClass()" href="#" class="kz" language="kazakh" >ҚАЗ</a></li>
+            <li><a onclick="activeClass()" href="#" class="jp" language="japanese">あ</a></li>
+            <li><a onclick="activeClass()" href="#" class="ae" language="arabic">عربى</a></li>
+            <li><a onclick="activeClass()" href="#" class="so" language="Somali">Soomaali</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <div class="content">
+      <img src="./img/som.png" alt="my image" class="myImg" onclick="changeImage()">
+
       <h2 class="title">Hello World</h2>
       <p class="description">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi

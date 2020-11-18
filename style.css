@@ -1,7 +1,7 @@
 /* 
 ^ Styling the drop-down menu for language switcher
 * Auther : Isse S . Ibrahim
-* URL : https://mezduname.tk
+* URL : https://mezdunaame.tk
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
@@ -144,4 +144,9 @@ nav ul li a {
 }
 .active {
     background-color: #f2f2f2;
+}
+.myImg{
+    margin-top: 5px;
+    width: 100px;
+    cursor: pointer;
 }
