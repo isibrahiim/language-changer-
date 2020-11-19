@@ -6,14 +6,20 @@ const sl = document.querySelector(".selected-lang");
 
 link.forEach((el) => {
   el.addEventListener("click", () => {
-    langEl.querySelector(".active").classList.remove("active");
-	el.classList.add("active");
-	const attr = el.getAttribute("language");
+	langEl.querySelector(".active").classList.remove("active");
+	
+  el.classList.add("active");
+  const attr = el.getAttribute("language");
+  sl.className = '';
+  sl.classList.add(".selected-lang");
 	sl.classList.add(el.classList[0]); 
-    sl.textContent = attr;
-
+	sl.textContent = attr;
+	
+		
     titleEl.textContent = data[attr].title;
-    descrEl.textContent = data[attr].description;
+	descrEl.textContent = data[attr].description;
+	
+	
   });
 });
 
