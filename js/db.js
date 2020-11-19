@@ -9,6 +9,8 @@ link.forEach((el) => {
     langEl.querySelector(".active").classList.remove("active");
 	el.classList.add("active");
 	const attr = el.getAttribute("language");
+	  sl.className = '';
+	  sl.classList.add(".selected-lang");
 	sl.classList.add(el.classList[0]); 
     sl.textContent = attr;
 
